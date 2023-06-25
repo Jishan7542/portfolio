@@ -7,11 +7,12 @@
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 65.5%;
     overflow-x: hidden;
 }
 body{
-    background-color: #111;
+   
+   background-color:  #29545fe3;
     overflow: hidden;
     padding-left: 35rem;
 }
@@ -71,7 +72,8 @@ header{
     z-index: 1000;
     height: 100%;
     width: 35rem;
-    background:#1a1a1a;
+    background:radial-gradient( circle 311px at 8.6% 27.9%, 
+     rgba(68, 138, 223, 0.582) 12.9%, rgba(40, 25, 28, 0.44) 91.2% );
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,11 +82,11 @@ header{
 }
 
 header .user img{
-    height: 13rem;
-    width: 13rem;
+    height: 17.5rem;
+    width: 16.5rem;
     border-radius: 50%;
     object-fit: cover;
-    border: .5rem solid;
+    border: .4rem solid;
 }
 
 header .user .nm{
@@ -93,7 +95,7 @@ header .user .nm{
 }
 
 header .user .jb{
-    font-size:1rem;
+    font-size:1.7rem;
     color: #fff;
 }
 
@@ -134,7 +136,7 @@ header .nv ul li a:hover{
 }
 
 .Details .Row .det h3{
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: yellow;
     padding: 1rem 0;
     font-weight: normal;
@@ -167,8 +169,9 @@ table{
 #lis li{
     margin: 0 9rem;
     color: white;
-    font-size: medium;
-    padding: .5rem 1rem;
+    font-size: 2rem;
+    padding: .7rem 1rem;
+    margin-top: 1%;
 }
 .Project .Row{
     display: flex;
@@ -185,7 +188,7 @@ table{
 }
 
 .Project .Row .det h3{
-    font-size: 2rem;
+    font-size: 2.1rem;
     color: yellow;
     padding: 1rem 0;
     font-weight: normal;
@@ -194,4 +197,7 @@ table{
 .Project .Row .det h3 span{
     color: #eee;
     padding: 0. 5rem;
+}
+.data{
+    font-size: 2.2rem;
 }
